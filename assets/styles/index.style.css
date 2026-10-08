@@ -29,7 +29,7 @@ body {
    CABEÇALHO PRINCIPAL
    ========================================================================== */
 .main-header {
-  background-color: rgba(18, 18, 18, 0.95);
+  background-color: rgba(240, 233, 233, 0.95);
   border-bottom: 1px solid var(--brown-dark);
   position: sticky;
   top: 0;
