@@ -9,7 +9,7 @@
   --brown-light: #a07855;    /* Marrom suave para detalhes */
   --accent-gold: #c5a059;    /* Destaque amadeirado/dourado leve */
   --text-light: #f5f5f7;     /* Texto claro */
-  --text-muted: #f5f5f7;     /* Texto secundário */
+  --text-muted: #6f4e37     /* Texto secundário */
 }
 
 /* Reset básico para garantir consistência */
@@ -19,14 +19,11 @@
   box-sizing: border-box;
 }
 
-nav {
-  padding-bottom: 20px;
-}
-
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   background-color: var(--bg-dark);
   color: var(--text-light);
+  text-align: center;
 }
 
 /* ==========================================================================
@@ -34,11 +31,12 @@ body {
    ========================================================================== */
 .main-header {
   background-color: rgba(240, 233, 233, 0.95);
-  border-bottom: 1px solid var(--brown-dark);
   position: sticky;
   top: 0;
   z-index: 1000;
   backdrop-filter: blur(8px); /* Efeito translúcido suave */
+  display: flex;
+  justify-content: center;
 }
 
 .header-container {
@@ -64,10 +62,19 @@ body {
 }
 
 /* Navegação */
-.nav-menu ul {
+
+nav {
+  padding-bottom: 10px;
   display: flex;
+  justify-content: center;
+}
+
+.nav-menu ul {
   list-style: none;
   gap: 32px;
+  display: flex;
+  justify-content: space-between;
+  
 }
 
 .nav-link {
@@ -140,6 +147,12 @@ main {
   padding: 24px;
   border-radius: 8px;
   margin-top: 20px;
+}
+
+img{
+  width: 15rem;
+  height: 15rem;
+
 }
 
 /* ==========================================================================
