@@ -9,7 +9,7 @@
   --brown-light: #a07855;    /* Marrom suave para detalhes */
   --accent-gold: #c5a059;    /* Destaque amadeirado/dourado leve */
   --text-light: #f5f5f7;     /* Texto claro */
-  --text-muted: #6f4e37;     /* Texto secundário */
+  --text-muted: #f5f5f7;     /* Texto secundário */
 }
 
 /* Reset básico para garantir consistência */
@@ -19,11 +19,14 @@
   box-sizing: border-box;
 }
 
+nav {
+  padding-bottom: 20px;
+}
+
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   background-color: var(--bg-dark);
   color: var(--text-light);
-  padding-top: 50%;
 }
 
 /* ==========================================================================
